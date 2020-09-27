@@ -17,4 +17,10 @@
 ## Lesson 4 Проектирование сайта.
 > На этом этапе мы создаем файловую систему будущего блога.
 - Создана папка _admin_ и файл _index.php_ в ней
+- Создана папка _models_
+  - Создан файл _articles.php_
+  - в этот файл добавлена функция _articles_all_, и функции _function articles_get_, _articles_new_, _articles_edit_, и _articles_delete_.
+- В корневом катаологе блога созданы файлы _database.php_ и _article.php_.
 - 
+ 
+ 
