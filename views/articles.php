@@ -11,13 +11,13 @@
         <h1 class="navbar-brand">Мой первый блог.</h1>
     </nav>
 
-    
+    <?php foreach ($articles as $a):?>
     <div class="article">
-        <h2></h2>
-        <em></em>
-        <p></p>
+        <h2><a href="articles.php?id=<?=$a['id']?>"><?=$a['title']?></a></h2>
+        <em><?=$a['date']?></em>
+        <p><?=$a['content']?></p>
     </div><!-----------------------------END ARTICLE----------------------------------->
-
+    <?php endforeach; ?>
     <footer>
         <h6>Мой первый блог</h6>
         <p>&copy; Marc Shreder 2020.</p>
