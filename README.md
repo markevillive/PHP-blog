@@ -6,10 +6,6 @@
 
 Источник - [Geekbrains.ru](https://geekbrains.ru/chapters/928)
 
-# PHP-blog
-## Description.
-> Создание блога на языке _php_ с использованием верстки _html_, таблиц стилей _CSS_ и CSS-фреймворка **Bootstrap**.
->>>>>>> develop
 ## Lesson 1 - создание html разметки блога.
 > На этом этапе мы создаем html-документ, который будет основой нашего блога.
 >
