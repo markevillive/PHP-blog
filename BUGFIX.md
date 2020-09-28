@@ -28,4 +28,18 @@
     
     include ("views/articles.php"); //подключение файла.
 ```
- 
+### Редактирование файла views/articles.php
+В файл _views/articles.php_ был скопирован код из _index.html_
+из него были удалены лишние блоки _article_, а в блок контента был добавлен следующий код:
+
+```php
+  <div>
+      <?php foreach($articles as $a): ?>
+          <div class="article">
+              <h2><a href="articles.php?id=<?=$a['id']?>"><?=$a['title']?></a></h2>
+              <em><em> Опубликовано: <?=$a['date']?> </em></em>
+              <p><?=$a['content']?></p>
+          </div><!-----------------------------END ARTICLE----------------------------------->
+      <? endforeach; ?>
+  </div>
+```
